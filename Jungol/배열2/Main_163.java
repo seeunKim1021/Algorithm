@@ -1,0 +1,20 @@
+package 배열2;
+
+public class Main_163 {
+    public static void main(String[] args) {
+        int arr[][]={{3, 5, 9}, {2, 11, 5}, {8, 30, 10}, {22, 5, 1}};
+
+        int sum=0;
+
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 3; j++) {
+                sum+=arr[i][j];
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println(sum);
+
+
+    }
+}
